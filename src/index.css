@@ -1,0 +1,40 @@
+/* Estilos para el fondo animado */
+
+.animated-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45deg, #ffbeaa82, #f3a2c17c, #8fdefb9e, #9effe878);
+  background-size: 100% 100%;
+  /* animation: gradientAnimation 30s infinite; */
+  z-index: 1; /* Capa superior */
+}
+
+.content {
+  position: relative;
+  z-index: 2; 
+}
+/* 
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 100%;
+  }
+ 
+  100% {
+    background-position: 100 0%;
+  }
+} */
+.main {
+    width: 100vh;
+    margin:5px;
+    
+}
+h1{
+    text-align: center;
+}
+
+.task:hover{
+  cursor:pointer;
+}
